@@ -21,7 +21,7 @@ export default function Footer() {
         </div>
         <div className="mt-5 border-t border-white/8 pt-4 text-center">
           <p className="text-[11px] text-slate-500">
-            © {new Date().getFullYear()} Min Myat Thura Aung
+            © 2026 Min Myat Thura Aung
           </p>
           <p className="text-[9px] text-slate-500">Built with Next.js</p>
         </div>
