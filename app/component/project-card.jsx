@@ -54,6 +54,7 @@ export default function ProjectCard({ project }) {
 
       <CardFooter className="grid grid-cols-2 gap-2 border-0 bg-transparent px-5 pb-5 pt-5 sm:px-6 sm:pb-6">
         <Button
+          nativeButton={false}
           render={<a href={demo} target="_blank" rel="noopener noreferrer" />}
           variant="outline"
           className="h-10 rounded-xl border-white/10 bg-white/3 text-slate-200 transition-all hover:-translate-y-0.5 hover:border-white/20 hover:bg-white/[0.07] hover:text-white"
